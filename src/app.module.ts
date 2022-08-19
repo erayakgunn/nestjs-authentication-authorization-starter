@@ -10,7 +10,7 @@ import { JwtAuthGuard } from './auth/jwt-auth.guard';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost/heatzone'),
+    MongooseModule.forRoot('mongodb://localhost/collection'),
     UsersModule,
     AuthModule],
   controllers: [AppController],
