@@ -7,7 +7,7 @@ async function bootstrap() {
   
 
   const config = new DocumentBuilder()
-  .setTitle('HeatZone').setDescription('HeatZone API description').setVersion('1.0').build();
+  .setTitle('App').setDescription('App API description').setVersion('1.0').build();
 
   const document = SwaggerModule.createDocument(app, config);
   
